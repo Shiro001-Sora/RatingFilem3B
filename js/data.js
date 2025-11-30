@@ -98,7 +98,7 @@ let movies = [
 // are immediately reflected in the app. Remove or change this behaviour
 // if you want to preserve edits made via the UI (admin).
 localStorage.setItem('movies', JSON.stringify(movies));
-}
+
 
 
 
