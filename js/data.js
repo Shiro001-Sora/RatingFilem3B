@@ -94,10 +94,11 @@ let movies = [
     }
 ];
 
-// Check if movies exist in localStorage, if not, initialize with sample data
-if (!localStorage.getItem('movies')) {
-    localStorage.setItem('movies', JSON.stringify(movies));
-
+// For development: always seed localStorage from this file so changes here
+// are immediately reflected in the app. Remove or change this behaviour
+// if you want to preserve edits made via the UI (admin).
+localStorage.setItem('movies', JSON.stringify(movies));
 }
+
 
 
