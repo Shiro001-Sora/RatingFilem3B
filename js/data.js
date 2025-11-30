@@ -50,7 +50,7 @@ let movies = [
         genre: "Adventure, Drama",
         rating: 4.7,
         description: "Tanjiro Kamado and other members of the Demon Slayer Corps find themselves in an epic battle at Infinity Castle.",
-        poster: "https://image.tmdb.org/t/p/original/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg"
+        poster: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0bb0dd0f-3a24-48e3-83a5-b476ca307a1f/dkej7jv-f6d8436f-f1ad-4343-a632-4c3c9fa71fa0.jpg/v1/fill/w_1280,h_1810,q_75,strp/demon_slayer__kimetsu_no_yaiba_infinity_castle_by_chamikanlakshan_dkej7jv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMCIsInBhdGgiOiIvZi8wYmIwZGQwZi0zYTI0LTQ4ZTMtODNhNS1iNDc2Y2EzMDdhMWYvZGtlajdqdi1mNmQ4NDM2Zi1mMWFkLTQzNDMtYTYzMi00YzNjOWZhNzFmYTAuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.CZR2hKK3X0WEDeWKtJR4BDIZPC0XKWZUmZ1kg-OjLwk"
     },
 	{
         id: 6,
@@ -99,3 +99,4 @@ if (!localStorage.getItem('movies')) {
     localStorage.setItem('movies', JSON.stringify(movies));
 
 }
+
